@@ -17,7 +17,7 @@ body {
 }
 
 main {
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.5rem 1rem;
   margin: 0.2rem auto;
   max-width: 50em;
 }
@@ -32,6 +32,7 @@ p {
 
 ul {
   margin-top: 0;
+  padding-inline-start: 30px;
 }
 
 h1,
@@ -53,7 +54,13 @@ a {
   color: inherit;
 }
 
-nav {
+#header {
   color: var(--color-text-light);
-  margin: 10px;
+  margin: 10px 0px;
+
+  li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 15px;
+  }
 }

@@ -1,4 +1,27 @@
-{% extends "base.html" %} {% block content %}
-<h1 class="title">This is my blog made with Zola.</h1>
-<p>Click <a href="{{ get_url(path="@/blog/_index.md") }}">here</a> to see my posts.</p>
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="hline">Will Forman</h1>
+<p>
+I'm a rising senior at Purdue University studying Computer Engineering.
+</p>
+
+<section>
+<p><strong>Interests:</strong></p>
+<ul>
+  <li>Distributed Systems</li>
+  <li>Operating Systems</li>
+</ul>
+</section>
+
+<section>
+<p><strong>Experience:</strong></p>
+
+<ul>
+  <li>2022: SWE Intern at Instagram</li>
+  <li>2021-2022: SWE at Beat the Book</li>
+  <li>2021: SWE Intern at Amazon</li>
+</ul>
+</section>
+</main>
 {% endblock content %}

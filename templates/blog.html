@@ -1,9 +1,22 @@
 {% extends "base.html" %} {% block content %}
-<h1 class="title">{{ section.title }}</h1>
+<div class="accent-titles">
+  <h1>{{ section.title }}</h1>
+</div>
 
-<ul>
+<ul id="posts" class="accent-titles">
   {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  <li>
+    <a href="{{ page.permalink | safe }}">
+      <h2>{{ page.title }}</h2>
+    </a>
+    <p>{{ page.date }}</p>
+    <div class="summary">
+      {{ page.summary | safe }}
+      <a href="{{ page.permalink | safe }}">
+        <p>Read more</p>
+      </a>
+    </div>
+  </li>
   {% endfor %}
 </ul>
 {% endblock content %}

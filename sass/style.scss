@@ -20,6 +20,9 @@ main {
   padding: 0.5rem 1rem;
   margin: 0.2rem auto;
   max-width: 50em;
+  ul {
+    margin-top: 0px;
+  }
 }
 
 .hline {
@@ -27,22 +30,19 @@ main {
 }
 
 p {
-  margin-bottom: 0;
+  margin: 0;
 }
 
-ul {
-  margin-top: 0;
-  padding-inline-start: 30px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-strong,
-a {
-  color: var(--color-text-accent);
+.accent-titles {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  strong,
+  a {
+    color: var(--color-text-accent);
+  }
 }
 
 footer {
@@ -58,9 +58,49 @@ a {
   color: var(--color-text-light);
   margin: 10px 0px;
 
+  ul {
+    padding-inline-start: 30px;
+  }
+
   li {
     display: inline;
     list-style-type: none;
     margin-right: 15px;
+  }
+}
+
+#posts {
+  list-style-type: none;
+  padding-inline-start: 20px;
+
+  h2 {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    margin-left: 5px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .summary {
+    margin-top: 8px;
+  }
+
+  p {
+    display: inline;
+  }
+
+  li {
+    margin-bottom: 1.5rem;
+  }
+}
+
+#post {
+  h1 {
+    margin: 0;
   }
 }

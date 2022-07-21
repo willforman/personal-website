@@ -1,5 +1,5 @@
 +++
-title = "First post: Longer Title"
+title = "Blog in progress"
 date = 2022-07-19
 +++
 

@@ -3,7 +3,7 @@ title = "Blog In Progress"
 date = 2022-07-23
 +++
 
-I'm starting a blog. This is something I've been interested in for a while. Real posts coming soon.
+I've been interested in making a blog for a while, so I decided I'll start one. First post coming soon.
 
 <!-- more -->
 

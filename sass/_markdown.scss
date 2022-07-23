@@ -30,3 +30,17 @@ h5,
 h6 {
   color: var(--color-primary);
 }
+
+strong::before {
+  content: "**";
+}
+strong::after {
+  content: "**";
+}
+
+em::before {
+  content: "*";
+}
+em::after {
+  content: "*";
+}

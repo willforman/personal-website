@@ -18,6 +18,11 @@
         padding: 0 1em;
         text-decoration: none;
       }
+
+      a:hover {
+        background-color: var(--color-accent-dark);
+        color: white;
+      }
     }
   }
 

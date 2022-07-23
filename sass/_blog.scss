@@ -1,0 +1,35 @@
+#posts {
+  list-style-type: none;
+  padding-inline-start: 20px;
+
+  h2 {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    margin-left: 5px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .summary {
+    margin-top: 8px;
+  }
+
+  p {
+    display: inline;
+  }
+
+  li {
+    margin-bottom: 1.5rem;
+  }
+}
+
+#post {
+  h1 {
+    margin: 0;
+  }
+}

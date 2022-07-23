@@ -1,9 +1,9 @@
 {% extends "base.html" %} {% block content %}
-<div class="accent-titles">
+<div>
   <h1>{{ section.title }}</h1>
 </div>
 
-<ul id="posts" class="accent-titles">
+<ul id="posts">
   {% for page in section.pages %}
   <li>
     <a href="{{ page.permalink | safe }}">

@@ -54,21 +54,6 @@ a {
   color: inherit;
 }
 
-#header {
-  color: var(--color-text-light);
-  margin: 10px 0px;
-
-  ul {
-    padding-inline-start: 30px;
-  }
-
-  li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 15px;
-  }
-}
-
 #posts {
   list-style-type: none;
   padding-inline-start: 20px;
@@ -104,3 +89,5 @@ a {
     margin: 0;
   }
 }
+
+@import "header";

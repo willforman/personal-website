@@ -1,0 +1,32 @@
+#navbar {
+  color: var(--color-text-light);
+  margin: 1rem;
+  justify-content: space-between;
+  vertical-align: middle;
+
+  ul {
+    display: flex;
+    padding-inline-start: 0;
+
+    li {
+      display: inline-block;
+      list-style-type: none;
+
+      a {
+        font-size: 1em;
+        line-height: 3em;
+        padding: 0 1em;
+        text-decoration: none;
+      }
+    }
+
+    li:first-child {
+      margin-right: auto;
+    }
+  }
+
+  #title {
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+}

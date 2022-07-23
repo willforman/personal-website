@@ -4,17 +4,15 @@
 
 :root {
   color-scheme: light dark;
-  --color-primary: #06d6a0;
-  --color-accent: #15ade0;
-  --color-accent-dark: #1082a8;
-  --color-light: #d2d5da;
+  --color-primary: #048b67;
+  --color-accent: #0e7395;
+  --color-gray: #656c7b;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --color-primary: #06d6a0;
     --color-accent: #15ade0;
-    --color-accent-dark: #1082a8;
-    --color-light: #d2d5da;
+    --color-gray: #d2d5da;
   }
 }
 
@@ -34,13 +32,9 @@ main {
   }
 }
 
-p {
-  margin: 0;
-}
-
 footer {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-gray);
 }
 
 a {

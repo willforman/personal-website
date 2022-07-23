@@ -4,10 +4,10 @@
 </div>
 
 <section id="posts">
-  <ul>
+  <ul id="posts">
     {% for page in section.pages %}
     <li>
-      <a href="{{ page.permalink | safe }}">
+      <a href="{{ page.permalink | safe }}" id="title">
         <h2>{{ page.title }}</h2>
       </a>
       <p>{{ page.date }}</p>

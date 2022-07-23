@@ -1,32 +1,37 @@
 #posts {
-  ul {
-    padding: 0;
-    list-style-type: none;
-  }
-
   h2 {
     margin: 0;
   }
 
-  a {
-    text-decoration: none;
-    margin-left: 5px;
-  }
+  ul {
+    padding: 0;
+    list-style-type: none;
 
-  a:hover {
-    text-decoration: underline;
-  }
+    li {
+      margin-bottom: 1.5rem;
 
-  .summary {
-    margin-top: 8px;
-  }
+      #title {
+        text-decoration: none;
+      }
 
-  p {
-    display: inline;
-  }
+      #title:hover h2 {
+        background-color: var(--color-primary);
+        color: inherit;
+      }
 
-  li {
-    margin-bottom: 1.5rem;
+      a:hover {
+        background-color: var(--color-primary);
+        color: white;
+      }
+
+      .summary {
+        margin-top: 8px;
+
+        p {
+          display: inline;
+        }
+      }
+    }
   }
 }
 

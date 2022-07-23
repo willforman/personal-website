@@ -3,20 +3,22 @@
   <h1>{{ section.title }}</h1>
 </div>
 
-<ul id="posts">
-  {% for page in section.pages %}
-  <li>
-    <a href="{{ page.permalink | safe }}">
-      <h2>{{ page.title }}</h2>
-    </a>
-    <p>{{ page.date }}</p>
-    <div class="summary">
-      {{ page.summary | safe }}
+<section id="posts">
+  <ul>
+    {% for page in section.pages %}
+    <li>
       <a href="{{ page.permalink | safe }}">
-        <p>Read more</p>
+        <h2>{{ page.title }}</h2>
       </a>
-    </div>
-  </li>
-  {% endfor %}
-</ul>
+      <p>{{ page.date }}</p>
+      <div class="summary">
+        {{ page.summary | safe }}
+        <a href="{{ page.permalink | safe }}">
+          <p>Read more</p>
+        </a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 {% endblock content %}

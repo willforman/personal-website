@@ -1,5 +1,5 @@
 #navbar {
-  margin: 1rem;
+  margin: 1rem 1rem;
   justify-content: space-between;
   vertical-align: middle;
 
@@ -15,7 +15,7 @@
         font-weight: bold;
         color: var(--color-accent);
         font-size: 1em;
-        padding: 0 1em;
+        padding: 0 0.5em;
         text-decoration: none;
       }
 
@@ -25,9 +25,10 @@
       }
     }
   }
+}
 
-  #title {
-    font-weight: bolder;
-    font-size: 1.5rem;
+@media only screen and (max-width: 450px) {
+  #navbar {
+    margin: 1rem 0;
   }
 }

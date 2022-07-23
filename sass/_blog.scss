@@ -1,6 +1,8 @@
 #posts {
-  list-style-type: none;
-  padding-inline-start: 20px;
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
 
   h2 {
     margin: 0;
@@ -29,6 +31,9 @@
 }
 
 #post {
+  max-width: 60ch;
+  margin: auto;
+
   h1 {
     margin: 0;
   }

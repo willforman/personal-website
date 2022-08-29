@@ -1,9 +1,9 @@
 +++
 title = "Blog In Progress"
-date = 2022-07-23
+date = 2022-08-22
 +++
 
-I've been interested in making a blog for a while, so I decided I'll start one. First post coming soon.
+I've been interested in making a blog for a while. Free tutorial posts have been invaluable for me learning new technologies, so I want to contribute on topics that there isn't as much content out there for.
 
 <!-- more -->
 
